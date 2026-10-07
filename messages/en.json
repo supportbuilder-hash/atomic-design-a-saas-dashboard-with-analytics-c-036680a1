@@ -1,0 +1,1041 @@
+{
+  "nav": {
+    "home": "Overview",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "settings": "Settings",
+    "billing": "Billing",
+    "team": "Team",
+    "integrations": "Integrations",
+    "help": "Help",
+    "auditLog": "Audit Log",
+    "onboarding": "Onboarding"
+  },
+  "cta": {
+    "primary": "Sign In"
+  },
+  "footer": {
+    "tagline": "Real-time analytics for teams that move fast",
+    "rights": "All rights reserved.",
+    "columns": {
+      "product": "Product",
+      "account": "Account",
+      "support": "Support"
+    },
+    "links": {
+      "dashboard": "Dashboard",
+      "analytics": "Analytics",
+      "reports": "Reports",
+      "settings": "Settings",
+      "login": "Log in",
+      "contact": "Contact support",
+      "status": "System status"
+    }
+  },
+  "reports": {
+    "hero": {
+      "eyebrow": "Reports",
+      "title": "Build and manage your analytics reports",
+      "subtitle": "Browse saved reports or assemble a new one with the metrics, date range, and export format your team needs."
+    },
+    "list": {
+      "items": [
+        {
+          "title": "Weekly Revenue Summary",
+          "description": "Revenue, refunds, and net growth broken down by product line for the past 7 days.",
+          "lastUpdated": "Updated 2 hours ago",
+          "format": "PDF"
+        },
+        {
+          "title": "User Acquisition Funnel",
+          "description": "Signups, activation, and conversion rates across every acquisition channel.",
+          "lastUpdated": "Updated yesterday",
+          "format": "CSV"
+        },
+        {
+          "title": "Churn & Retention",
+          "description": "Monthly churn rate, cohort retention curves, and at-risk account flags.",
+          "lastUpdated": "Updated 3 days ago",
+          "format": "PDF"
+        },
+        {
+          "title": "Feature Adoption Breakdown",
+          "description": "Usage share for every shipped feature, segmented by plan tier.",
+          "lastUpdated": "Updated 5 days ago",
+          "format": "CSV"
+        },
+        {
+          "title": "Support Ticket Trends",
+          "description": "Ticket volume, average resolution time, and top categories this quarter.",
+          "lastUpdated": "Updated 1 week ago",
+          "format": "PDF"
+        },
+        {
+          "title": "Quarterly Executive Overview",
+          "description": "A consolidated view of revenue, growth, and churn metrics for leadership review.",
+          "lastUpdated": "Updated 2 weeks ago",
+          "format": "PDF"
+        }
+      ]
+    },
+    "card": {
+      "viewLabel": "View",
+      "editLabel": "Edit",
+      "deleteLabel": "Delete",
+      "saveLabel": "Save",
+      "cancelLabel": "Cancel"
+    },
+    "empty": {
+      "title": "No reports yet",
+      "subtitle": "Use the builder below to create your first report."
+    },
+    "builder": {
+      "eyebrow": "Report builder",
+      "title": "Create a new report",
+      "subtitle": "Name your report, pick a date range and the metrics to include, then choose how you want to export it.",
+      "nameLabel": "Report name",
+      "namePlaceholder": "e.g. Monthly Growth Snapshot",
+      "dateRangeLabel": "Date range",
+      "dateRangeOptions": [
+        "Last 7 days",
+        "Last 30 days",
+        "Last quarter",
+        "Year to date",
+        "Custom range"
+      ],
+      "metricsLabel": "Metrics to include",
+      "metricsOptions": [
+        "Revenue",
+        "Active users",
+        "Conversion rate",
+        "Churn rate",
+        "Avg session time"
+      ],
+      "formatLabel": "Export format",
+      "formatOptions": [
+        "CSV",
+        "PDF"
+      ],
+      "submitLabel": "Generate report",
+      "successMessage": "Report created and added to your list.",
+      "noMetrics": "No metrics selected",
+      "justNow": "Updated just now"
+    }
+  },
+  "settings": {
+    "header": {
+      "eyebrow": "Workspace settings",
+      "title": "Settings",
+      "subtitle": "Manage your profile, preferences and notification channels for Pulsemetrics."
+    },
+    "account": {
+      "title": "Account",
+      "subtitle": "Update your personal information and login credentials.",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Jordan Avery",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "New password",
+      "passwordPlaceholder": "Leave blank to keep current password",
+      "avatarTitle": "Jordan Avery",
+      "avatarRole": "Workspace admin",
+      "avatarPlan": "Pro plan",
+      "avatarHint": "JPG or PNG, up to 4MB.",
+      "uploadButton": "Upload photo",
+      "saveButton": "Save changes",
+      "savedMessage": "Your changes have been saved."
+    },
+    "preferences": {
+      "title": "Preferences",
+      "subtitle": "Control how dates, times and language appear across your dashboard.",
+      "languageLabel": "Language",
+      "timezoneLabel": "Timezone",
+      "dateFormatLabel": "Date format",
+      "languageOptions": [
+        {
+          "value": "en",
+          "label": "English"
+        },
+        {
+          "value": "es",
+          "label": "Spanish"
+        },
+        {
+          "value": "fr",
+          "label": "French"
+        },
+        {
+          "value": "de",
+          "label": "German"
+        }
+      ],
+      "timezoneOptions": [
+        {
+          "value": "utc-8",
+          "label": "Pacific Time (UTC-08:00)"
+        },
+        {
+          "value": "utc-5",
+          "label": "Eastern Time (UTC-05:00)"
+        },
+        {
+          "value": "utc",
+          "label": "Coordinated Universal Time (UTC)"
+        },
+        {
+          "value": "utc+1",
+          "label": "Central European Time (UTC+01:00)"
+        }
+      ],
+      "dateFormatOptions": [
+        {
+          "value": "mdy",
+          "label": "MM/DD/YYYY"
+        },
+        {
+          "value": "dmy",
+          "label": "DD/MM/YYYY"
+        },
+        {
+          "value": "iso",
+          "label": "YYYY-MM-DD"
+        }
+      ]
+    },
+    "theme": {
+      "title": "Appearance",
+      "subtitle": "Choose how the Pulsemetrics dashboard looks on this device.",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "Choose which updates you receive and where you receive them.",
+      "columnEmail": "Email",
+      "columnInApp": "In-app",
+      "columnPush": "Push",
+      "items": [
+        {
+          "title": "Product updates",
+          "description": "New features, improvements and release notes."
+        },
+        {
+          "title": "Security alerts",
+          "description": "Sign-ins from new devices and password changes."
+        },
+        {
+          "title": "Weekly digest",
+          "description": "A Monday summary of your key metrics."
+        },
+        {
+          "title": "Billing",
+          "description": "Invoices, payment failures and plan changes."
+        },
+        {
+          "title": "Team activity",
+          "description": "Mentions, shared reports and comments from teammates."
+        }
+      ]
+    },
+    "save": {
+      "title": "Ready to apply changes?",
+      "subtitle": "Updates are saved instantly across your workspace.",
+      "button": "Save all settings",
+      "success": "All settings saved."
+    }
+  },
+  "login": {
+    "hero": {
+      "eyebrow": "Welcome back",
+      "titlePrefix": "Your metrics,",
+      "titleHighlight": "one clear view",
+      "subtitle": "Sign in to track performance, spot trends early, and keep every team aligned on the numbers that matter.",
+      "previewLabel": "Live traffic",
+      "previewStatus": "Updating",
+      "features": [
+        {
+          "title": "Real-time metrics across every channel",
+          "description": "Watch activity update the moment it happens, no refresh required."
+        },
+        {
+          "title": "Dashboards your whole team can read",
+          "description": "Shareable views built for marketing, product, and engineering alike."
+        },
+        {
+          "title": "Alerts the instant something breaks",
+          "description": "Catch anomalies before they turn into incidents."
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Sign in",
+      "title": "Log in to Pulsemetrics",
+      "subtitle": "Enter your credentials to access your dashboard.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "togglePasswordLabel": "Show or hide password",
+      "forgotLabel": "Forgot password?",
+      "forgotMessage": "Password resets aren't available in this preview. Use the demo button below to explore the dashboard instantly.",
+      "rememberLabel": "Keep me signed in",
+      "errorEmpty": "Please enter both your email and password.",
+      "submitLabel": "Sign in",
+      "submitLoadingLabel": "Signing in...",
+      "dividerLabel": "Or",
+      "demoButtonLabel": "Continue as demo",
+      "signupPrompt": "New to Pulsemetrics?",
+      "signupCta": "Talk to sales"
+    },
+    "footer": {
+      "navLabel": "Legal links",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Support",
+          "href": "mailto:support@pulsemetrics.io"
+        },
+        {
+          "label": "Status",
+          "href": "https://status.pulsemetrics.io"
+        }
+      ],
+      "copyright": "© Pulsemetrics. All rights reserved."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Live product analytics",
+      "titleStart": "See every metric that matters,",
+      "titleAccent": "the moment it happens.",
+      "subtitle": "Pulsemetrics unifies your product, revenue, and infrastructure data into one real-time dashboard, so your team can spot trends and react before they become problems.",
+      "primaryCta": "Start free trial",
+      "secondaryCta": "View live analytics",
+      "chartTitle": "Requests per hour",
+      "chartValue": "18,204",
+      "chartTrend": "+12.4%",
+      "chips": [
+        {
+          "label": "Active sessions",
+          "value": "2,318"
+        },
+        {
+          "label": "Avg latency",
+          "value": "142ms"
+        },
+        {
+          "label": "Error rate",
+          "value": "0.12%"
+        }
+      ]
+    },
+    "features": {
+      "eyebrow": "Platform",
+      "title": "Everything your team needs to track performance in real time",
+      "subtitle": "One dashboard replaces a dozen spreadsheets and disconnected tools, with the depth analysts need and the clarity everyone else wants.",
+      "items": [
+        {
+          "title": "Real-time charts",
+          "description": "Stream events from your product and infrastructure into live charts that update as they happen, with no manual refresh."
+        },
+        {
+          "title": "Custom alerts",
+          "description": "Set thresholds on any metric and get notified by email or Slack the moment something drifts outside normal range."
+        },
+        {
+          "title": "Team workspaces",
+          "description": "Give every team its own dashboards and permissions, from growth to engineering to finance."
+        },
+        {
+          "title": "One-click reports",
+          "description": "Turn any dashboard into a shareable PDF or scheduled email report in seconds."
+        },
+        {
+          "title": "Granular access control",
+          "description": "Role-based permissions down to the individual metric, so sensitive data stays with the right people."
+        },
+        {
+          "title": "Open API & integrations",
+          "description": "Pipe data in from your warehouse or push it out to your own tools with a documented REST API."
+        }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "From raw data to a live dashboard in an afternoon",
+      "subtitle": "No lengthy implementation, no dedicated data team required. Most teams are watching live charts within their first session.",
+      "steps": [
+        {
+          "title": "Connect your data sources",
+          "description": "Link your database, payment provider, and event tracker with a guided setup or our REST API."
+        },
+        {
+          "title": "Define the metrics that matter",
+          "description": "Pick from prebuilt templates or model your own metric from raw events, no SQL required."
+        },
+        {
+          "title": "Build your dashboard",
+          "description": "Drag charts into place, group them by team, and save views for the metrics you check daily."
+        },
+        {
+          "title": "Share and alert your team",
+          "description": "Invite teammates, schedule reports, and set alerts so everyone sees the same numbers at the same time."
+        }
+      ]
+    },
+    "dashboardPreview": {
+      "eyebrow": "Dashboard preview",
+      "title": "A single source of truth for every data source you rely on",
+      "subtitle": "Pulsemetrics keeps your connections in sync and shows you exactly when data last updated, so nobody is ever guessing.",
+      "chartLabel": "Weekly sessions",
+      "tableSourceLabel": "Source",
+      "tableStatusLabel": "Status",
+      "tableSyncLabel": "Last synced",
+      "rows": [
+        {
+          "source": "Stripe",
+          "status": "Connected",
+          "lastSynced": "2 min ago"
+        },
+        {
+          "source": "PostgreSQL",
+          "status": "Connected",
+          "lastSynced": "4 min ago"
+        },
+        {
+          "source": "Segment",
+          "status": "Syncing",
+          "lastSynced": "Just now"
+        },
+        {
+          "source": "Custom API",
+          "status": "Connected",
+          "lastSynced": "11 min ago"
+        },
+        {
+          "source": "Amplitude",
+          "status": "Connected",
+          "lastSynced": "18 min ago"
+        }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Plans that scale from your first dashboard to your whole company",
+      "subtitle": "Start free, upgrade when your team needs more connections, seats, or history.",
+      "mostPopular": "Most popular",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$29",
+          "period": "/month",
+          "description": "For small teams getting their first real-time dashboard live.",
+          "features": [
+            "3 connected data sources",
+            "Up to 5 team members",
+            "7-day data history",
+            "Email alerts"
+          ],
+          "ctaLabel": "Start free trial"
+        },
+        {
+          "name": "Growth",
+          "price": "$89",
+          "period": "/month",
+          "description": "For teams that need deeper history and more collaborators.",
+          "features": [
+            "Unlimited data sources",
+            "Up to 25 team members",
+            "90-day data history",
+            "Slack and email alerts",
+            "Scheduled reports"
+          ],
+          "ctaLabel": "Start free trial"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "",
+          "description": "For organizations with advanced security and data needs.",
+          "features": [
+            "Unlimited everything",
+            "SSO and audit logs",
+            "Unlimited data history",
+            "Dedicated support"
+          ],
+          "ctaLabel": "Talk to sales"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to see your data in real time?",
+      "subtitle": "Connect your first data source in minutes and have a live dashboard before your coffee gets cold.",
+      "primaryCta": "Start free trial",
+      "secondaryCta": "Explore reports"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Track performance across every channel in real time.",
+    "header": {
+      "stats": [
+        {
+          "label": "Total sessions"
+        },
+        {
+          "label": "Avg. daily visits"
+        },
+        {
+          "label": "Peak day volume"
+        },
+        {
+          "label": "30-day growth"
+        }
+      ]
+    },
+    "filters": {
+      "title": "Date range",
+      "subtitle": "Choose a preset or set a custom range to update the charts below.",
+      "presets": [
+        "Today",
+        "Last 7 days",
+        "Last 30 days",
+        "Last 90 days"
+      ],
+      "daysSuffix": "days selected",
+      "fromLabel": "From",
+      "toLabel": "To",
+      "apply": "Apply range"
+    },
+    "charts": {
+      "trendTitle": "Traffic trend",
+      "trendSubtitle": "Daily sessions with a confidence band across the selected period.",
+      "trendLegendValue": "Sessions",
+      "trendLegendBand": "Expected range",
+      "pieTitle": "Traffic sources",
+      "pieSubtitle": "Share of sessions by acquisition channel.",
+      "pieSegments": [
+        {
+          "label": "Organic search"
+        },
+        {
+          "label": "Paid search"
+        },
+        {
+          "label": "Email"
+        },
+        {
+          "label": "Referral"
+        },
+        {
+          "label": "Social"
+        }
+      ]
+    },
+    "table": {
+      "title": "Campaign performance",
+      "subtitle": "Sort any column and export the current view as a CSV file.",
+      "export": "Export CSV",
+      "columns": {
+        "name": "Campaign",
+        "source": "Source",
+        "clicks": "Clicks",
+        "conversions": "Conversions",
+        "revenue": "Revenue",
+        "status": "Status"
+      },
+      "pageLabel": "Page {current} of {total}",
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "billing": {
+    "hero": {
+      "eyebrow": "Billing",
+      "title": "Manage your plan, invoices, and payment details",
+      "subtitle": "Review your current subscription, download past invoices, and keep your payment method up to date, all in one place."
+    },
+    "currentPlan": {
+      "eyebrow": "Subscription",
+      "title": "Current plan",
+      "planName": "Pro",
+      "price": "$79",
+      "period": "/month",
+      "description": "Built for growing teams that need more data history, more seats, and priority support.",
+      "renewalNote": "Your plan renews automatically on June 14, 2024.",
+      "features": [
+        "Unlimited connected data sources",
+        "Up to 25 team members",
+        "90-day data history",
+        "Priority email and chat support"
+      ],
+      "changePlanLabel": "Change plan",
+      "cancelLabel": "Cancel subscription",
+      "badge": "Active",
+      "cancelConfirmMessage": "Are you sure? You'll lose access at the end of your billing cycle.",
+      "name": "Current plan"
+    },
+    "paymentMethod": {
+      "title": "Payment method",
+      "subtitle": "The card on file is charged automatically each billing cycle.",
+      "cardBrand": "Visa",
+      "cardLast4": "4242",
+      "cardExpiry": "08/27",
+      "updateLabel": "Update card",
+      "addLabel": "Add new card",
+      "brand": "Visa",
+      "expiry": "12/26",
+      "expiryLabel": "Expires",
+      "last4": "•••• 4242"
+    },
+    "invoices": {
+      "title": "Invoice history",
+      "subtitle": "Download a copy of any past invoice for your records.",
+      "columns": {
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status",
+        "action": "Action"
+      },
+      "downloadLabel": "Download",
+      "items": [
+        {
+          "date": "May 14, 2024",
+          "amount": "$79.00",
+          "status": "Paid",
+          "invoiceNumber": "INV-1042"
+        },
+        {
+          "date": "Apr 14, 2024",
+          "amount": "$79.00",
+          "status": "Paid",
+          "invoiceNumber": "INV-0981"
+        },
+        {
+          "date": "Mar 14, 2024",
+          "amount": "$79.00",
+          "status": "Paid",
+          "invoiceNumber": "INV-0923"
+        },
+        {
+          "date": "Feb 14, 2024",
+          "amount": "$79.00",
+          "status": "Paid",
+          "invoiceNumber": "INV-0867"
+        },
+        {
+          "date": "Jan 14, 2024",
+          "amount": "$79.00",
+          "status": "Pending",
+          "invoiceNumber": "INV-0804"
+        },
+        {
+          "date": "Dec 14, 2023",
+          "amount": "$49.00",
+          "status": "Paid",
+          "invoiceNumber": "INV-0745"
+        }
+      ]
+    }
+  },
+  "team": {
+    "hero": {
+      "eyebrow": "Team",
+      "title": "Manage your team members and permissions",
+      "subtitle": "See who has access to your workspace, adjust roles, and invite new teammates in a few clicks."
+    },
+    "members": {
+      "title": "Team members",
+      "subtitle": "Everyone with access to this Pulsemetrics workspace.",
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "permissions": "Permissions",
+        "status": "Status"
+      },
+      "items": [
+        {
+          "name": "Jordan Avery",
+          "email": "jordan@pulsemetrics.io",
+          "role": "Owner",
+          "permissions": "Full access",
+          "status": "Active",
+          "avatarInitials": "JA"
+        },
+        {
+          "name": "Priya Natarajan",
+          "email": "priya@pulsemetrics.io",
+          "role": "Admin",
+          "permissions": "Manage team & billing",
+          "status": "Active",
+          "avatarInitials": "PN"
+        },
+        {
+          "name": "Marcus Lee",
+          "email": "marcus@pulsemetrics.io",
+          "role": "Editor",
+          "permissions": "Edit dashboards & reports",
+          "status": "Active",
+          "avatarInitials": "ML"
+        },
+        {
+          "name": "Sofia Reyes",
+          "email": "sofia@pulsemetrics.io",
+          "role": "Editor",
+          "permissions": "Edit dashboards & reports",
+          "status": "Pending",
+          "avatarInitials": "SR"
+        },
+        {
+          "name": "Tomás Brandão",
+          "email": "tomas@pulsemetrics.io",
+          "role": "Viewer",
+          "permissions": "View dashboards only",
+          "status": "Active",
+          "avatarInitials": "TB"
+        },
+        {
+          "name": "Hana Kobayashi",
+          "email": "hana@pulsemetrics.io",
+          "role": "Viewer",
+          "permissions": "View dashboards only",
+          "status": "Pending",
+          "avatarInitials": "HK"
+        }
+      ],
+      "emptyLabel": "No team members yet. Invite someone to get started.",
+      "removeLabel": "Remove"
+    },
+    "invite": {
+      "eyebrow": "Invite",
+      "title": "Invite a new team member",
+      "subtitle": "Send an invitation by email and assign a role, access takes effect once they accept.",
+      "emailLabel": "Email address",
+      "roleLabel": "Role",
+      "roleOptions": [
+        "Admin",
+        "Editor",
+        "Viewer",
+        "Billing only"
+      ],
+      "submitLabel": "Send invite",
+      "successMessage": "Invitation sent. They will receive an email to join your workspace.",
+      "defaultPermissions": "Editor",
+      "emailPlaceholder": "name@company.com",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Jane Doe"
+    },
+    "roles": {
+      "title": "What each role can do",
+      "items": [
+        {
+          "role": "Owner",
+          "description": "Full control over billing, team members, and every workspace setting."
+        },
+        {
+          "role": "Admin",
+          "description": "Manage team members, integrations, and billing without owner-level transfer rights."
+        },
+        {
+          "role": "Editor",
+          "description": "Create and edit dashboards, reports, and alerts across the workspace."
+        },
+        {
+          "role": "Viewer",
+          "description": "Read-only access to dashboards and reports shared with them."
+        }
+      ],
+      "subtitle": "Manage who can access and edit your workspace."
+    }
+  },
+  "integrations": {
+    "hero": {
+      "eyebrow": "Integrations",
+      "title": "Connect the tools your team already uses",
+      "subtitle": "Enable integrations to stream data in and out of Pulsemetrics automatically, no engineering lift required."
+    },
+    "grid": {
+      "title": "Available integrations",
+      "subtitle": "Toggle a connection on or off at any time. Changes apply instantly across your workspace.",
+      "items": [
+        {
+          "name": "Stripe",
+          "category": "Payments",
+          "description": "Sync revenue, refunds, and subscription events directly into your dashboards.",
+          "connected": true
+        },
+        {
+          "name": "Segment",
+          "category": "Data pipeline",
+          "description": "Pipe customer and product events from Segment sources in real time.",
+          "connected": true
+        },
+        {
+          "name": "Slack",
+          "category": "Alerts",
+          "description": "Send threshold alerts and scheduled reports straight to any Slack channel.",
+          "connected": true
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Database",
+          "description": "Connect a read replica to query your production data without extra ETL.",
+          "connected": true
+        },
+        {
+          "name": "Amplitude",
+          "category": "Product analytics",
+          "description": "Import cohorts and funnels to compare against your Pulsemetrics metrics.",
+          "connected": false
+        },
+        {
+          "name": "Zendesk",
+          "category": "Support",
+          "description": "Correlate support ticket volume with product usage and churn signals.",
+          "connected": false
+        },
+        {
+          "name": "Salesforce",
+          "category": "CRM",
+          "description": "Bring opportunity and account data into revenue dashboards.",
+          "connected": false
+        },
+        {
+          "name": "Webhooks",
+          "category": "Custom",
+          "description": "Send any Pulsemetrics event to your own endpoint as it happens.",
+          "connected": true
+        }
+      ],
+      "connectedLabel": "Connected",
+      "disconnectedLabel": "Connect"
+    },
+    "categories": {
+      "title": "Browse by category",
+      "items": [
+        "Payments",
+        "Data pipeline",
+        "Alerts",
+        "Support",
+        "CRM"
+      ],
+      "all": "All integrations"
+    }
+  },
+  "help": {
+    "hero": {
+      "eyebrow": "Help & Support",
+      "title": "Get answers and talk to our team",
+      "subtitle": "Find quick answers to common questions, or reach out to support for anything specific to your workspace."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "The most common questions about using and troubleshooting your Pulsemetrics dashboard.",
+      "items": [
+        {
+          "question": "Why is my dashboard showing stale data?",
+          "answer": "Check the connection status on your Integrations page. A source marked as syncing can take a few minutes to catch up; anything marked as disconnected needs to be reauthorized."
+        },
+        {
+          "question": "How do I invite a teammate?",
+          "answer": "Go to the Team page and use the invite form to send an email invitation with a role attached. They will get access as soon as they accept."
+        },
+        {
+          "question": "Can I change my subscription plan?",
+          "answer": "Yes. Visit the Billing page and select Change plan to move between tiers. Changes are prorated automatically for the current cycle."
+        },
+        {
+          "question": "How far back does my data history go?",
+          "answer": "History depends on your plan: Starter keeps 7 days, Growth and Pro keep 90 days, and Enterprise plans can retain data indefinitely."
+        },
+        {
+          "question": "Is there an audit trail of account changes?",
+          "answer": "Yes, every account, billing, data, and security change is recorded on the Audit Log page with a timestamp and the responsible user."
+        },
+        {
+          "question": "What happens if a data source fails to connect?",
+          "answer": "You'll see an alert on the Integrations page and receive an email notification. Most connection issues resolve by reauthorizing the integration."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact support",
+      "title": "Still need help?",
+      "subtitle": "Send us a message and our support team will get back to you shortly.",
+      "nameLabel": "Your name",
+      "emailLabel": "Email address",
+      "messageLabel": "How can we help?",
+      "submitLabel": "Send message",
+      "successMessage": "Thanks, your message has been sent. Our team will reply by email shortly.",
+      "details": [
+        {
+          "label": "Email support",
+          "value": "support@pulsemetrics.io"
+        },
+        {
+          "label": "Live chat hours",
+          "value": "Mon to Fri, 8am to 6pm ET"
+        },
+        {
+          "label": "Response time",
+          "value": "Usually within 4 business hours"
+        }
+      ]
+    }
+  },
+  "auditLog": {
+    "hero": {
+      "eyebrow": "Audit Log",
+      "title": "A complete record of account and data activity",
+      "subtitle": "Track every meaningful change made in your workspace for compliance, security review, and troubleshooting."
+    },
+    "filters": {
+      "title": "Filter by category",
+      "actionOptions": [
+        "All",
+        "Account",
+        "Data",
+        "Security",
+        "Billing"
+      ],
+      "label": "Filter by action"
+    },
+    "log": {
+      "title": "Recent activity",
+      "subtitle": "Chronological record of changes, most recent first.",
+      "columns": {
+        "timestamp": "Timestamp",
+        "actor": "Actor",
+        "action": "Action",
+        "details": "Details"
+      },
+      "items": [
+        {
+          "timestamp": "2024-05-14 09:12",
+          "actor": "Jordan Avery",
+          "action": "Updated billing plan",
+          "details": "Changed subscription from Growth to Pro, effective immediately.",
+          "category": "Billing"
+        },
+        {
+          "timestamp": "2024-05-13 16:45",
+          "actor": "Priya Natarajan",
+          "action": "Invited team member",
+          "details": "Sent a workspace invitation to sofia@pulsemetrics.io with the Editor role.",
+          "category": "Account"
+        },
+        {
+          "timestamp": "2024-05-13 11:03",
+          "actor": "Marcus Lee",
+          "action": "Connected integration",
+          "details": "Authorized the Webhooks integration for the production workspace.",
+          "category": "Data"
+        },
+        {
+          "timestamp": "2024-05-12 14:32",
+          "actor": "Jordan Avery",
+          "action": "Changed account password",
+          "details": "Password was updated after a successful email verification.",
+          "category": "Security"
+        },
+        {
+          "timestamp": "2024-05-11 08:50",
+          "actor": "Sofia Reyes",
+          "action": "Exported report",
+          "details": "Downloaded the Quarterly Executive Overview report as a PDF.",
+          "category": "Data"
+        },
+        {
+          "timestamp": "2024-05-10 17:20",
+          "actor": "Priya Natarajan",
+          "action": "Updated payment method",
+          "details": "Replaced the card on file ending in 4242 with a new Visa card.",
+          "category": "Billing"
+        },
+        {
+          "timestamp": "2024-05-09 13:08",
+          "actor": "Tomás Brandão",
+          "action": "Enabled two-factor authentication",
+          "details": "Two-factor authentication was turned on for this account.",
+          "category": "Security"
+        },
+        {
+          "timestamp": "2024-05-08 10:27",
+          "actor": "Jordan Avery",
+          "action": "Removed team member",
+          "details": "Revoked workspace access for a former contractor account.",
+          "category": "Account"
+        },
+        {
+          "timestamp": "2024-05-07 15:41",
+          "actor": "Marcus Lee",
+          "action": "Created dashboard",
+          "details": "Published a new Churn & Retention dashboard for the growth team.",
+          "category": "Data"
+        },
+        {
+          "timestamp": "2024-05-06 09:05",
+          "actor": "Hana Kobayashi",
+          "action": "Signed in from new device",
+          "details": "A sign-in was detected from a new device in Tokyo, Japan.",
+          "category": "Security"
+        }
+      ],
+      "empty": "No activity yet. Changes to your account will appear here.",
+      "loadMore": "Load more"
+    }
+  },
+  "onboarding": {
+    "hero": {
+      "eyebrow": "Onboarding",
+      "title": "Get your dashboard live in five steps",
+      "subtitle": "A guided setup to connect your data, invite your team, and start tracking the metrics that matter within your first session."
+    },
+    "steps": {
+      "title": "Setup checklist",
+      "subtitle": "Work through these steps in order, or jump ahead if you already know what you need.",
+      "items": [
+        {
+          "title": "Create your workspace",
+          "description": "Name your workspace and choose the timezone your team reports in."
+        },
+        {
+          "title": "Connect your data sources",
+          "description": "Link your database, payment provider, or event tracker using a guided connection flow."
+        },
+        {
+          "title": "Invite your team",
+          "description": "Add teammates by email and assign the right role for each person."
+        },
+        {
+          "title": "Customize your dashboard",
+          "description": "Choose which metrics appear first and arrange charts to match how your team works."
+        },
+        {
+          "title": "Go live",
+          "description": "Publish your dashboard and start receiving real-time updates and alerts."
+        }
+      ],
+      "back": "Back",
+      "completeSubtitle": "Your dashboard is ready to use.",
+      "completeTitle": "You're all set!",
+      "finish": "Go to dashboard",
+      "next": "Next",
+      "restart": "Start over",
+      "stepLabel": "Step {step} of {total}"
+    },
+    "tips": {
+      "title": "Tips for a smooth setup",
+      "items": [
+        "Start with one or two data sources, you can always connect more later.",
+        "Assign the Viewer role to anyone who only needs to check numbers, not edit dashboards.",
+        "Set up at least one alert before you go live so your team is notified the moment something changes."
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "name": "Pulsemetrics",
+    "tagline": "Real-time analytics for teams that move fast",
+    "logoUrl": null
+  },
+  "navLinks": [
+    {
+      "key": "home",
+      "href": "/"
+    },
+    {
+      "key": "analytics",
+      "href": "/analytics"
+    },
+    {
+      "key": "reports",
+      "href": "/reports"
+    },
+    {
+      "key": "settings",
+      "href": "/settings"
+    },
+    {
+      "key": "billing",
+      "href": "/billing"
+    },
+    {
+      "key": "team",
+      "href": "/team"
+    },
+    {
+      "key": "integrations",
+      "href": "/integrations"
+    },
+    {
+      "key": "help",
+      "href": "/help"
+    },
+    {
+      "key": "auditLog",
+      "href": "/audit-log"
+    },
+    {
+      "key": "onboarding",
+      "href": "/onboarding"
+    }
+  ],
+  "primaryCta": {
+    "key": "primary",
+    "href": "/login"
+  },
+  "footerColumns": [
+    {
+      "key": "product",
+      "links": [
+        { "key": "dashboard", "href": "/" },
+        { "key": "analytics", "href": "/analytics" },
+        { "key": "reports", "href": "/reports" }
+      ]
+    },
+    {
+      "key": "account",
+      "links": [
+        { "key": "settings", "href": "/settings" },
+        { "key": "billing", "href": "/billing" },
+        { "key": "team", "href": "/team" },
+        { "key": "login", "href": "/login" }
+      ]
+    },
+    {
+      "key": "support",
+      "links": [
+        { "key": "help", "href": "/help" },
+        { "key": "contact", "href": "mailto:support@pulsemetrics.io" },
+        { "key": "status", "href": "https://status.pulsemetrics.io" }
+      ]
+    }
+  ],
+  "socialLinks": [],
+  "motion": {
+    "intensity": 3
+  },
+  "navbarVariant": "split",
+  "footerVariant": "columns"
+}
